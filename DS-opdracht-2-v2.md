@@ -149,5 +149,8 @@ erDiagram
     MHL_RUBRIEKEN ||--o{ MHL_SUPPLIERS_MHL_RUBRIEK_VIEW : "1-op-n"
     MHL_SUPPLIERS ||--o{ MHL_SUPPLIERS_MHL_RUBRIEK_VIEW : "1-op-n"
     MHL_DETAILDEFS ||--o{ MHL_PROPERTIES : "1-op-n"
+
+    PC_LAT_LONG ||--o{ MHL_SUPPLIERS : "1-op-n (postcode)"
+    PC_LAT_LONG ||--o{ MHL_SUPPLIERS : "1-op-n (p_postcode)"
 ```
  
