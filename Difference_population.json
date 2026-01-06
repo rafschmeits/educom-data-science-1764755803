@@ -1,0 +1,26 @@
+[
+  {
+    "continent": "Africa",
+    "verschil_population": 1061286584
+  },
+  {
+    "continent": "Asia",
+    "verschil_population": 2576476984
+  },
+  {
+    "continent": "Europe",
+    "verschil_population": 87223547
+  },
+  {
+    "continent": "North America",
+    "verschil_population": 284861530
+  },
+  {
+    "continent": "Oceania",
+    "verschil_population": 25558284
+  },
+  {
+    "continent": "South America",
+    "verschil_population": 243869452
+  }
+]

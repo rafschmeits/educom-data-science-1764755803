@@ -1,0 +1,26 @@
+[
+  {
+    "continent": "Africa",
+    "percentage_growth_continent_population": 290.4099050397682
+  },
+  {
+    "continent": "Asia",
+    "percentage_growth_continent_population": 120.12072490122634
+  },
+  {
+    "continent": "Europe",
+    "percentage_growth_continent_population": 13.29781319128484
+  },
+  {
+    "continent": "North America",
+    "percentage_growth_continent_population": 90.30763415983597
+  },
+  {
+    "continent": "Oceania",
+    "percentage_growth_continent_population": 131.20087144582698
+  },
+  {
+    "continent": "South America",
+    "percentage_growth_continent_population": 126.39183549303002
+  }
+]

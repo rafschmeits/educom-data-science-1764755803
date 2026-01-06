@@ -1,0 +1,26 @@
+[
+  {
+    "continent": "Africa",
+    "Percentage_world_population_for_each_continent": 17.869999999999997
+  },
+  {
+    "continent": "Asia",
+    "Percentage_world_population_for_each_continent": 59.19
+  },
+  {
+    "continent": "Europe",
+    "Percentage_world_population_for_each_continent": 9.33
+  },
+  {
+    "continent": "North America",
+    "Percentage_world_population_for_each_continent": 7.51
+  },
+  {
+    "continent": "Oceania",
+    "Percentage_world_population_for_each_continent": 0.55
+  },
+  {
+    "continent": "South America",
+    "Percentage_world_population_for_each_continent": 5.4799999999999995
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "continent": "Africa",
+    "continent_population_2022": 1426730932,
+    "continent_population_2020": 1360671810,
+    "continent_population_2015": 1201102442,
+    "continent_population_2010": 1055228072,
+    "continent_population_2000": 818946032,
+    "continent_population_1990": 638150629,
+    "continent_population_1980": 481536377,
+    "continent_population_1970": 365444348
+  },
+  {
+    "continent": "Asia",
+    "continent_population_2022": 4721383274,
+    "continent_population_2020": 4663086535,
+    "continent_population_2015": 4458250182,
+    "continent_population_2010": 4220041327,
+    "continent_population_2000": 3735089604,
+    "continent_population_1990": 3210563577,
+    "continent_population_1980": 2635334228,
+    "continent_population_1970": 2144906290
+  },
+  {
+    "continent": "Europe",
+    "continent_population_2022": 743147538,
+    "continent_population_2020": 745792196,
+    "continent_population_2015": 741535608,
+    "continent_population_2010": 735613934,
+    "continent_population_2000": 726093423,
+    "continent_population_1990": 720320797,
+    "continent_population_1980": 692527159,
+    "continent_population_1970": 655923991
+  },
+  {
+    "continent": "North America",
+    "continent_population_2022": 600296136,
+    "continent_population_2020": 594236593,
+    "continent_population_2015": 570383850,
+    "continent_population_2010": 542720651,
+    "continent_population_2000": 486069584,
+    "continent_population_1990": 421266425,
+    "continent_population_1980": 368293361,
+    "continent_population_1970": 315434606
+  },
+  {
+    "continent": "Oceania",
+    "continent_population_2022": 45038554,
+    "continent_population_2020": 43933426,
+    "continent_population_2015": 40403283,
+    "continent_population_2010": 37102764,
+    "continent_population_2000": 31222778,
+    "continent_population_1990": 26743822,
+    "continent_population_1980": 22920240,
+    "continent_population_1970": 19480270
+  },
+  {
+    "continent": "South America",
+    "continent_population_2022": 436816608,
+    "continent_population_2020": 431530043,
+    "continent_population_2015": 413134396,
+    "continent_population_2010": 393078250,
+    "continent_population_2000": 349634282,
+    "continent_population_1990": 297146415,
+    "continent_population_1980": 241789006,
+    "continent_population_1970": 192947156
+  }
+]
