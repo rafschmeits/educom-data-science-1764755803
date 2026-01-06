@@ -1,0 +1,1133 @@
+```
+./jq '.[] | {country, density: (.population_1970 / .area_km2)}' world-population.json
+```
+```json
+{
+  "country": "Afghanistan",
+  "density": 16.48647103015807
+}
+{
+  "country": "Albania",
+  "density": 80.86583414498399
+}
+{
+  "country": "Algeria",
+  "density": 5.792365752615419
+}
+{
+  "country": "American Samoa",
+  "density": 136.05527638190955
+}
+{
+  "country": "Andorra",
+  "density": 42.43589743589744
+}
+{
+  "country": "Angola",
+  "density": 4.836528435068581
+}
+{
+  "country": "Anguilla",
+  "density": 69.04395604395604
+}
+{
+  "country": "Antigua and Barbuda",
+  "density": 145.96380090497738
+}
+{
+  "country": "Argentina",
+  "density": 8.575313983599482
+}
+{
+  "country": "Armenia",
+  "density": 85.20919207880846
+}
+{
+  "country": "Aruba",
+  "density": 328.3666666666667
+}
+{
+  "country": "Australia",
+  "density": 1.6374148078581139
+}
+{
+  "country": "Austria",
+  "density": 89.00932384256775
+}
+{
+  "country": "Azerbaijan",
+  "density": 62.64800230946882
+}
+{
+  "country": "Bahamas",
+  "density": 12.84723517177078
+}
+{
+  "country": "Bahrain",
+  "density": 290.921568627451
+}
+{
+  "country": "Bangladesh",
+  "density": 457.69370468252356
+}
+{
+  "country": "Barbados",
+  "density": 561.3883720930232
+}
+{
+  "country": "Belarus",
+  "density": 44.17526974951831
+}
+{
+  "country": "Belgium",
+  "density": 315.42767295597486
+}
+{
+  "country": "Belize",
+  "density": 5.264521466515719
+}
+{
+  "country": "Benin",
+  "density": 26.845935962778142
+}
+{
+  "country": "Bermuda",
+  "density": 963.3148148148148
+}
+{
+  "country": "Bhutan",
+  "density": 7.78491430952753
+}
+{
+  "country": "Bolivia",
+  "density": 4.174196531707721
+}
+{
+  "country": "Bosnia and Herzegovina",
+  "density": 74.50957839442286
+}
+{
+  "country": "Botswana",
+  "density": 1.0176013745704466
+}
+{
+  "country": "Brazil",
+  "density": 11.316640650219762
+}
+{
+  "country": "British Virgin Islands",
+  "density": 63.450331125827816
+}
+{
+  "country": "Brunei",
+  "density": 23.129748482220293
+}
+{
+  "country": "Bulgaria",
+  "density": 77.40825584646326
+}
+{
+  "country": "Burkina Faso",
+  "density": 20.55803815113182
+}
+{
+  "country": "Burundi",
+  "density": 125.66767263059567
+}
+{
+  "country": "Cambodia",
+  "density": 37.05650840997597
+}
+{
+  "country": "Cameroon",
+  "density": 13.57218546110777
+}
+{
+  "country": "Canada",
+  "density": 2.146748665704525
+}
+{
+  "country": "Cape Verde",
+  "density": 71.22787007190676
+}
+{
+  "country": "Cayman Islands",
+  "density": 39.89772727272727
+}
+{
+  "country": "Central African Republic",
+  "density": 3.3184736686656477
+}
+{
+  "country": "Chad",
+  "density": 2.856225856697819
+}
+{
+  "country": "Chile",
+  "density": 12.988301842873051
+}
+{
+  "country": "China",
+  "density": 84.73655658037568
+}
+{
+  "country": "Colombia",
+  "density": 18.30986697590011
+}
+{
+  "country": "Comoros",
+  "density": 130.156283566058
+}
+{
+  "country": "Cook Islands",
+  "density": 86.73728813559322
+}
+{
+  "country": "Costa Rica",
+  "density": 36.315009784735814
+}
+{
+  "country": "Croatia",
+  "density": 79.38364490935435
+}
+{
+  "country": "Cuba",
+  "density": 80.7181755305595
+}
+{
+  "country": "Curacao",
+  "density": 338.7049549549549
+}
+{
+  "country": "Cyprus",
+  "density": 69.26861960869095
+}
+{
+  "country": "Czech Republic",
+  "density": 124.20901540607368
+}
+{
+  "country": "Denmark",
+  "density": 114.2377825219288
+}
+{
+  "country": "Djibouti",
+  "density": 6.223232758620689
+}
+{
+  "country": "Dominica",
+  "density": 91.73768308921439
+}
+{
+  "country": "Dominican Republic",
+  "density": 91.96176367857656
+}
+{
+  "country": "DR Congo",
+  "density": 8.594009957106145
+}
+{
+  "country": "Ecuador",
+  "density": 22.295162205020212
+}
+{
+  "country": "Egypt",
+  "density": 34.69697840291286
+}
+{
+  "country": "El Salvador",
+  "density": 172.0018059978138
+}
+{
+  "country": "Equatorial Guinea",
+  "density": 11.299240668781861
+}
+{
+  "country": "Eritrea",
+  "density": 10.822687074829933
+}
+{
+  "country": "Estonia",
+  "density": 30.114732350144823
+}
+{
+  "country": "Eswatini",
+  "density": 25.504780004607234
+}
+{
+  "country": "Ethiopia",
+  "density": 25.63456126052703
+}
+{
+  "country": "Falkland Islands",
+  "density": 0.18680686765793147
+}
+{
+  "country": "Faroe Islands",
+  "density": 27.57788944723618
+}
+{
+  "country": "Fiji",
+  "density": 28.876641856392293
+}
+{
+  "country": "Finland",
+  "density": 13.611980828782828
+}
+{
+  "country": "France",
+  "density": 91.57883613228324
+}
+{
+  "country": "French Guiana",
+  "density": 0.55646802499581
+}
+{
+  "country": "French Polynesia",
+  "density": 28.29157667386609
+}
+{
+  "country": "Gabon",
+  "density": 2.231092248606483
+}
+{
+  "country": "Gambia",
+  "density": 49.464963981663395
+}
+{
+  "country": "Georgia",
+  "density": 68.87268292682927
+}
+{
+  "country": "Germany",
+  "density": 219.2425471978136
+}
+{
+  "country": "Ghana",
+  "density": 37.15165197268303
+}
+{
+  "country": "Gibraltar",
+  "density": 4447.5
+}
+{
+  "country": "Greece",
+  "density": 64.73879081748618
+}
+{
+  "country": "Greenland",
+  "density": 0.020975159804366032
+}
+{
+  "country": "Grenada",
+  "density": 287.1918604651163
+}
+{
+  "country": "Guadeloupe",
+  "density": 195.52211302211302
+}
+{
+  "country": "Guam",
+  "density": 160.83788706739526
+}
+{
+  "country": "Guatemala",
+  "density": 50.080430530172926
+}
+{
+  "country": "Guernsey",
+  "density": 675.0769230769231
+}
+{
+  "country": "Guinea",
+  "density": 17.174105272577147
+}
+{
+  "country": "Guinea-Bissau",
+  "density": 16.378214532871972
+}
+{
+  "country": "Guyana",
+  "density": 3.2807567602770633
+}
+{
+  "country": "Haiti",
+  "density": 168.6779099099099
+}
+{
+  "country": "Honduras",
+  "density": 24.737341322049566
+}
+{
+  "country": "Hong Kong",
+  "density": 3582.4927536231885
+}
+{
+  "country": "Hungary",
+  "density": 110.88452938900116
+}
+{
+  "country": "Iceland",
+  "density": 1.985126213592233
+}
+{
+  "country": "India",
+  "density": 169.57750236495426
+}
+{
+  "country": "Indonesia",
+  "density": 60.50103409222769
+}
+{
+  "country": "Iran",
+  "density": 17.26112808253878
+}
+{
+  "country": "Iraq",
+  "density": 22.384135226331626
+}
+{
+  "country": "Ireland",
+  "density": 41.803210336829224
+}
+{
+  "country": "Isle of Man",
+  "density": 96.67482517482517
+}
+{
+  "country": "Israel",
+  "density": 139.97626384207993
+}
+{
+  "country": "Italy",
+  "density": 176.9587304537128
+}
+{
+  "country": "Ivory Coast",
+  "density": 16.985161088248883
+}
+{
+  "country": "Jamaica",
+  "density": 169.1466654535529
+}
+{
+  "country": "Japan",
+  "density": 278.932180562538
+}
+{
+  "country": "Jersey",
+  "density": 589.198275862069
+}
+{
+  "country": "Jordan",
+  "density": 17.431599919410804
+}
+{
+  "country": "Kazakhstan",
+  "density": 4.501194539249147
+}
+{
+  "country": "Kenya",
+  "density": 19.768675682800712
+}
+{
+  "country": "Kiribati",
+  "density": 70.82244143033292
+}
+{
+  "country": "Kuwait",
+  "density": 45.054776069143564
+}
+{
+  "country": "Kyrgyzstan",
+  "density": 15.085615975914099
+}
+{
+  "country": "Laos",
+  "density": 11.297647804054055
+}
+{
+  "country": "Latvia",
+  "density": 37.13524063259964
+}
+{
+  "country": "Lebanon",
+  "density": 227.87897053195562
+}
+{
+  "country": "Lesotho",
+  "density": 33.71704826223028
+}
+{
+  "country": "Liberia",
+  "density": 13.141565426644757
+}
+{
+  "country": "Libya",
+  "density": 1.0850432499403253
+}
+{
+  "country": "Liechtenstein",
+  "density": 131.80625
+}
+{
+  "country": "Lithuania",
+  "density": 49.15998468606432
+}
+{
+  "country": "Luxembourg",
+  "density": 131.22273781902553
+}
+{
+  "country": "Macau",
+  "density": 8242.8
+}
+{
+  "country": "Madagascar",
+  "density": 11.310540490357573
+}
+{
+  "country": "Malawi",
+  "density": 39.03599642145775
+}
+{
+  "country": "Malaysia",
+  "density": 31.156029419322074
+}
+{
+  "country": "Maldives",
+  "density": 410.81
+}
+{
+  "country": "Mali",
+  "density": 4.961801882289194
+}
+{
+  "country": "Malta",
+  "density": 998.1455696202531
+}
+{
+  "country": "Marshall Islands",
+  "density": 132.4254143646409
+}
+{
+  "country": "Martinique",
+  "density": 289.38652482269504
+}
+{
+  "country": "Mauritania",
+  "density": 1.0887726787620065
+}
+{
+  "country": "Mauritius",
+  "density": 406.91911764705884
+}
+{
+  "country": "Mayotte",
+  "density": 94.60695187165776
+}
+{
+  "country": "Mexico",
+  "density": 25.600664842507157
+}
+{
+  "country": "Micronesia",
+  "density": 84.02991452991454
+}
+{
+  "country": "Moldova",
+  "density": 109.64781658098445
+}
+{
+  "country": "Monaco",
+  "density": 12135
+}
+{
+  "country": "Mongolia",
+  "density": 0.8272308213616689
+}
+{
+  "country": "Montenegro",
+  "density": 38.39183318853171
+}
+{
+  "country": "Montserrat",
+  "density": 111.7843137254902
+}
+{
+  "country": "Morocco",
+  "density": 34.20524241406338
+}
+{
+  "country": "Mozambique",
+  "density": 10.493738694344989
+}
+{
+  "country": "Myanmar",
+  "density": 40.32663196261185
+}
+{
+  "country": "Namibia",
+  "density": 0.9138242401119165
+}
+{
+  "country": "Nauru",
+  "density": 317.2857142857143
+}
+{
+  "country": "Nepal",
+  "density": 84.93817136722811
+}
+{
+  "country": "Netherlands",
+  "density": 311.533715651135
+}
+{
+  "country": "New Caledonia",
+  "density": 5.974804845222073
+}
+{
+  "country": "New Zealand",
+  "density": 10.441425386461194
+}
+{
+  "country": "Nicaragua",
+  "density": 18.752095909429098
+}
+{
+  "country": "Niger",
+  "density": 3.6856416732438833
+}
+{
+  "country": "Nigeria",
+  "density": 60.154999956699086
+}
+{
+  "country": "Niue",
+  "density": 19.942307692307693
+}
+{
+  "country": "North Korea",
+  "density": 124.41619240405515
+}
+{
+  "country": "North Macedonia",
+  "density": 64.43367168358418
+}
+{
+  "country": "Northern Mariana Islands",
+  "density": 21.85991379310345
+}
+{
+  "country": "Norway",
+  "density": 11.968876041531553
+}
+{
+  "country": "Oman",
+  "density": 2.1670210016155087
+}
+{
+  "country": "Pakistan",
+  "density": 67.22991863133737
+}
+{
+  "country": "Palau",
+  "density": 24.762527233115467
+}
+{
+  "country": "Palestine",
+  "density": 179.78151125401928
+}
+{
+  "country": "Panama",
+  "density": 20.104061418513066
+}
+{
+  "country": "Papua New Guinea",
+  "density": 5.377795782559848
+}
+{
+  "country": "Paraguay",
+  "density": 5.922004071276847
+}
+{
+  "country": "Peru",
+  "density": 10.552600496725843
+}
+{
+  "country": "Philippines",
+  "density": 109.3479128268191
+}
+{
+  "country": "Poland",
+  "density": 103.88591174974974
+}
+{
+  "country": "Portugal",
+  "density": 94.29504832229341
+}
+{
+  "country": "Puerto Rico",
+  "density": 308.6379932356257
+}
+{
+  "country": "Qatar",
+  "density": 10.185309856723633
+}
+{
+  "country": "Republic of the Congo",
+  "density": 4.084763157894737
+}
+{
+  "country": "Reunion",
+  "density": 188.73954599761052
+}
+{
+  "country": "Romania",
+  "density": 83.57118347588626
+}
+{
+  "country": "Russia",
+  "density": 7.608560575993719
+}
+{
+  "country": "Rwanda",
+  "density": 147.9370870984889
+}
+{
+  "country": "Saint Barthelemy",
+  "density": 115.0952380952381
+}
+{
+  "country": "Saint Kitts and Nevis",
+  "density": 172.2911877394636
+}
+{
+  "country": "Saint Lucia",
+  "density": 167.3538961038961
+}
+{
+  "country": "Saint Martin",
+  "density": 109.47169811320755
+}
+{
+  "country": "Saint Pierre and Miquelon",
+  "density": 22.880165289256198
+}
+{
+  "country": "Saint Vincent and the Grenadines",
+  "density": 253.10796915167094
+}
+{
+  "country": "Samoa",
+  "density": 50.23610133708656
+}
+{
+  "country": "San Marino",
+  "density": 297.8524590163934
+}
+{
+  "country": "Sao Tome and Principe",
+  "density": 80.48029045643153
+}
+{
+  "country": "Saudi Arabia",
+  "density": 2.840498397443352
+}
+{
+  "country": "Senegal",
+  "density": 22.202620957493316
+}
+{
+  "country": "Serbia",
+  "density": 81.41072418827311
+}
+{
+  "country": "Seychelles",
+  "density": 120.3075221238938
+}
+{
+  "country": "Sierra Leone",
+  "density": 38.730931140228606
+}
+{
+  "country": "Singapore",
+  "density": 2903.987323943662
+}
+{
+  "country": "Sint Maarten",
+  "density": 184.11764705882354
+}
+{
+  "country": "Slovakia",
+  "density": 92.23376226114975
+}
+{
+  "country": "Slovenia",
+  "density": 85.89187589404627
+}
+{
+  "country": "Solomon Islands",
+  "density": 5.981208471760797
+}
+{
+  "country": "Somalia",
+  "density": 5.835389558963518
+}
+{
+  "country": "South Africa",
+  "density": 18.319105809242473
+}
+{
+  "country": "South Korea",
+  "density": 325.3282406945415
+}
+{
+  "country": "South Sudan",
+  "density": 5.393202042775657
+}
+{
+  "country": "Spain",
+  "density": 66.7848839507344
+}
+{
+  "country": "Sri Lanka",
+  "density": 188.82440176802317
+}
+{
+  "country": "Sudan",
+  "density": 5.994060659530834
+}
+{
+  "country": "Suriname",
+  "density": 2.3191185447442315
+}
+{
+  "country": "Sweden",
+  "density": 17.82765076227806
+}
+{
+  "country": "Switzerland",
+  "density": 149.72451797306462
+}
+{
+  "country": "Syria",
+  "density": 34.12463008964251
+}
+{
+  "country": "Taiwan",
+  "density": 413.2807448954218
+}
+{
+  "country": "Tajikistan",
+  "density": 20.915576519916144
+}
+{
+  "country": "Tanzania",
+  "density": 14.409458600107715
+}
+{
+  "country": "Thailand",
+  "density": 69.75313376987839
+}
+{
+  "country": "Timor-Leste",
+  "density": 37.247613284926715
+}
+{
+  "country": "Togo",
+  "density": 38.6965395791142
+}
+{
+  "country": "Tokelau",
+  "density": 142.83333333333334
+}
+{
+  "country": "Tonga",
+  "density": 115.77510040160642
+}
+{
+  "country": "Trinidad and Tobago",
+  "density": 192.76608187134502
+}
+{
+  "country": "Tunisia",
+  "density": 30.850216979402237
+}
+{
+  "country": "Turkey",
+  "density": 45.358235851151534
+}
+{
+  "country": "Turkmenistan",
+  "density": 4.51020692481049
+}
+{
+  "country": "Turks and Caicos Islands",
+  "density": 5.975738396624473
+}
+{
+  "country": "Tuvalu",
+  "density": 223.6153846153846
+}
+{
+  "country": "Uganda",
+  "density": 42.712531566963364
+}
+{
+  "country": "Ukraine",
+  "density": 78.34148467274234
+}
+{
+  "country": "United Arab Emirates",
+  "density": 3.565598086124402
+}
+{
+  "country": "United Kingdom",
+  "density": 229.10731165088515
+}
+{
+  "country": "United States",
+  "density": 21.37380516206265
+}
+{
+  "country": "United States Virgin Islands",
+  "density": 182.84149855907782
+}
+{
+  "country": "Uruguay",
+  "density": 15.412933482108333
+}
+{
+  "country": "Uzbekistan",
+  "density": 26.84702950379973
+}
+{
+  "country": "Vanuatu",
+  "density": 7.139141849208302
+}
+{
+  "country": "Vatican City",
+  "density": 752
+}
+{
+  "country": "Venezuela",
+  "density": 12.390787226729373
+}
+{
+  "country": "Vietnam",
+  "density": 126.59217963117278
+}
+{
+  "country": "Wallis and Futuna",
+  "density": 66.03521126760563
+}
+{
+  "country": "Western Sahara",
+  "density": 0.287109022556391
+}
+{
+  "country": "Yemen",
+  "density": 12.962162479544215
+}
+{
+  "country": "Zambia",
+  "density": 5.6890814921898665
+}
+{
+  "country": "Zimbabwe",
+  "density": 13.31497068510609
+}
+```
+```
+ ./jq 'group_by(.continent)
+    | map({
+        continent: .[0].continent,
+        verschil_population: (map(.population_2022) | add) - (map(.population_1970) | add)
+      })' world-population.json
+```
+
+```json
+[
+  {
+    "continent": "Africa",
+    "verschil_population": 1061286584
+  },
+  {
+    "continent": "Asia",
+    "verschil_population": 2576476984
+  },
+  {
+    "continent": "Europe",
+    "verschil_population": 87223547
+  },
+  {
+    "continent": "North America",
+    "verschil_population": 284861530
+  },
+  {
+    "continent": "Oceania",
+    "verschil_population": 25558284
+  },
+  {
+    "continent": "South America",
+    "verschil_population": 243869452
+  }
+]
+```
+
+```
+ ./jq 'group_by(.continent)
+   | map({
+       continent: .[0].continent,
+       continent_population_2022: (map(.population_2022) | add),
+       continent_population_2020: (map(.population_2020) | add),
+       continent_population_2015: (map(.population_2015) | add),
+       continent_population_2010: (map(.population_2010) | add),
+       continent_population_2000: (map(.population_2000) | add),
+       continent_population_1990: (map(.population_1990) | add),
+       continent_population_1980: (map(.population_1980) | add),
+       continent_population_1970: (map(.population_1970) | add)
+     })' world-population.json
+```
+
+```json
+[
+  {
+    "continent": "Africa",
+    "continent_population_2022": 1426730932,
+    "continent_population_2020": 1360671810,
+    "continent_population_2015": 1201102442,
+    "continent_population_2010": 1055228072,
+    "continent_population_2000": 818946032,
+    "continent_population_1990": 638150629,
+    "continent_population_1980": 481536377,
+    "continent_population_1970": 365444348
+  },
+  {
+    "continent": "Asia",
+    "continent_population_2022": 4721383274,
+    "continent_population_2020": 4663086535,
+    "continent_population_2015": 4458250182,
+    "continent_population_2010": 4220041327,
+    "continent_population_2000": 3735089604,
+    "continent_population_1990": 3210563577,
+    "continent_population_1980": 2635334228,
+    "continent_population_1970": 2144906290
+  },
+  {
+    "continent": "Europe",
+    "continent_population_2022": 743147538,
+    "continent_population_2020": 745792196,
+    "continent_population_2015": 741535608,
+    "continent_population_2010": 735613934,
+    "continent_population_2000": 726093423,
+    "continent_population_1990": 720320797,
+    "continent_population_1980": 692527159,
+    "continent_population_1970": 655923991
+  },
+  {
+    "continent": "North America",
+    "continent_population_2022": 600296136,
+    "continent_population_2020": 594236593,
+    "continent_population_2015": 570383850,
+    "continent_population_2010": 542720651,
+    "continent_population_2000": 486069584,
+    "continent_population_1990": 421266425,
+    "continent_population_1980": 368293361,
+    "continent_population_1970": 315434606
+  },
+  {
+    "continent": "Oceania",
+    "continent_population_2022": 45038554,
+    "continent_population_2020": 43933426,
+    "continent_population_2015": 40403283,
+    "continent_population_2010": 37102764,
+    "continent_population_2000": 31222778,
+    "continent_population_1990": 26743822,
+    "continent_population_1980": 22920240,
+    "continent_population_1970": 19480270
+  },
+  {
+    "continent": "South America",
+    "continent_population_2022": 436816608,
+    "continent_population_2020": 431530043,
+    "continent_population_2015": 413134396,
+    "continent_population_2010": 393078250,
+    "continent_population_2000": 349634282,
+    "continent_population_1990": 297146415,
+    "continent_population_1980": 241789006,
+    "continent_population_1970": 192947156
+  }
+]
+```
+```
+$  ./jq 'group_by(.continent)
+   | map({
+       continent: .[0].continent,
+Percentage_world_population_for_each_continent: (map(.percentage_world_population) | add) })' world-population.json
+```
+
+```json
+[
+  {
+    "continent": "Africa",
+    "Percentage_world_population_for_each_continent": 17.869999999999997
+  },
+  {
+    "continent": "Asia",
+    "Percentage_world_population_for_each_continent": 59.19
+  },
+  {
+    "continent": "Europe",
+    "Percentage_world_population_for_each_continent": 9.33
+  },
+  {
+    "continent": "North America",
+    "Percentage_world_population_for_each_continent": 7.51
+  },
+  {
+    "continent": "Oceania",
+    "Percentage_world_population_for_each_continent": 0.55
+  },
+  {
+    "continent": "South America",
+    "Percentage_world_population_for_each_continent": 5.4799999999999995
+  }
+]
+```
+
+```
+./jq 'group_by(.continent)  | map({   continent: .[0].continent, percentage_growth_continent_population: (((map(.population_2022) | add) - (map(.population_1970) | add)) / (map(.population_1970) | add) * 100
+    )
+     })' world-population.json
+```
+
+```json
+[
+  {
+    "continent": "Africa",
+    "percentage_growth_continent_population": 290.4099050397682
+  },
+  {
+    "continent": "Asia",
+    "percentage_growth_continent_population": 120.12072490122634
+  },
+  {
+    "continent": "Europe",
+    "percentage_growth_continent_population": 13.29781319128484
+  },
+  {
+    "continent": "North America",
+    "percentage_growth_continent_population": 90.30763415983597
+  },
+  {
+    "continent": "Oceania",
+    "percentage_growth_continent_population": 131.20087144582698
+  },
+  {
+    "continent": "South America",
+    "percentage_growth_continent_population": 126.39183549303002
+  }
+]
+```
